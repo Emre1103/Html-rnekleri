@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Salih Emre DEmiryılmaz - Blog</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@media screen and (min-width: 600px){
+body {
+background-color: bisque;
+} 
+* {
+box-sizing: border-box;
+}
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+p {
+color: black ;
+text-align: center;
+font-size: 32px ;
+}
+}
+</style>
+</head>
+<body>
+<div style="background-image: url('resim8.jpg');">
+<p> Emre Demiryılmaz </p>
+<p>Kişisel Web Sitesi</p>
+</div>
+<div class="topnav">
+<a href="">Ben Emre Blog Sayfama Hoşgeldin => </a>
+<a href="index.html">Ana Sayfa</a>
+<a href="profil.html">Profil</a>
+<a href="tecrübeler.html">Tecrübeler</a>
+<a href="blog.html">Blog</a>
+</div>
+<p>Blog Yazılarım</p>
+<pre style="font-size: 18px;"> 
+<h1>Kişisel Bilgiler </h1>
+Ad-Soyad: Salih Emre Demiryılmaz
+İletişim: 545656321
+Doğum Tarihi: 11.03.2002 
+Doğum Yeri: Isparta
+
+<h1>Eğitim Ve Çalışma Hayatı</h1>
+İmkb ilk Ve orta Okulu 
+Elvanköy İmkb Meslek lisesi
+Yalvaç Teknik Bilimler MYO
+<h1>Çalışma Hayatı</h1>
+Man Türkiye 
+Beytem Bilişim 
+<h1>Blog</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSGenQ28OljKmFISSWQqnPbeXMg3_sCpis9GQav8WeA&s" border="0" align="right"/>
+<h1>Özgeçmiş</h1>
+Html,Css,python,arduıno,sql konularında kendimi geliştirmekeyim daha
+eğitim sektöründe akıllı kitap dönüşümleri yapmaktayım 
+sql veri tabanı oluşturup bağlayabiliyorum
+<br /><br />
+</div>
+</pre>
+</html>

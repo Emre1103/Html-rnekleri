@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <img src="data:image/png;base64,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" width="200" height="70" alt="Web Sitesi Logosu" />
+  <h1 class="w3-xlarge">Emre Oto</h1>
+  <h1>Emre Demiryılmaz</h1>
+  
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="#" class="w3-bar-item w3-button">Anasayfa</a>
+      <a href="#" class="w3-bar-item w3-button w3-light-grey">Galeri</a>
+    </div>
+  </div>
+</header>
+<!--Paragraf-->
+<h1> Biz Kimiz <h1>
+<p>Emre Oto, 25 yılı aşan süre zarfında servis işletmeciliğinde sürekli gelişerek, bölgesinin önde gelen aktörlerinden biri haline geldi.
+
+1989 yılında BMW Yetkili Servisi olarak başlayan hizmetlerimizi; mekanik, kaporta-boya, yedek parça-satış, sigorta-lastik ve 24 saat yol yardım hizmetleri olarak özetleyebiliriz.
+
+Emre Oto olarak, koşulsuz müşteri memnuniyetini hedefleriz ve müşterilerin istek ve beklentilerinin ötesinde hizmet sunmayı amaçlayan bir anlayışla çalışırız.
+
+Vizyonumuz;Hizmet verdiğimiz otomotiv sektöründeki başarı ve güvenilirliğimizi sürdürmek, Beyhan Oto isminin ‘genç’, ‘dinamik’, ‘yenilikçi’ kavramlarıyla özdeşleşmesini sağlamak ve bunu kalıcı bir şekilde devam ettirmektir.
+
+Misyonumuz ise; Öncelikle müşterilerimiz olmak üzere tüm iş ortaklarımızın memnuniyet ve güvenlerini ön planda tutarak, kaynaklarımızı en verimli şekilde kullanmak ve hizmet kalitemizi en üst düzeyde tutmaktır.  </p> 
+
+
+
+<!-- Photo Grid -->
+<div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
+  <div class="w3-half">
+    <img src="https://www.manzara.gen.tr/w1/bmw-1-serisi-arka-planlar%C4%B1-10.jpg" style="width:100%">
+    <img src="https://resimdiyari.com/_data/i/upload/2012/10/10/20121010145537-9f993cdb-me.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljXcN353Y4ITq9SPLVUMbtznlfRv8qBzbmPhJo3joGfmc2j8aNp7E0swWKoiIbhm98tk&usqp=CAU" style="width:100%">
+
+  </div>
+
+  <div class="w3-half">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_9_NuwzwdvbcrefBAcXRdnwZJMGkq6Ar0UtYczXxksTmrCV0IWIguOdEF9Mfm6RK86I&usqp=CAU" style="width:100%">
+    <img src="https://images.unsplash.com/photo-1599331629286-89dd11843eae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8&w=1000&q=80" style="width:100%">
+  </div>
+</div>
+  
+<!-- End Page Content -->
+
+</body>
+</html>
